@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="container">
+            <H1>welcome To bank</H1>
+            <section class="row">
+                <Div class=" col-4 text-white bg-secondary">
+                    <h1>Deposit</h1><br>
+                    <h3>$ <span id="pushdep">00</span></h3>
+                </Div>
+                <Div class=" col-4 text-white bg-primary">
+                    <h1>Withdraw</h1><br>
+                    <div>$<span>00</span></div>
+                </Div>
+
+                <Div class=" col-4 text-white bg-success">
+                    <h1>Total</h1><br>
+                    <div>$<span id="TotalAmmount">100</span></div>
+                </Div>
+            </section>
+            <section class="row">
+                <Div class=" col-6 text-white bg-danger">
+                    <h2>Please Deposit here</h2>
+                    <input id="depositinput" type="text" placeholder="ammoubt you want to deposit">
+                    <button id="deposit-btn">Submit</button>
+                </Div>
+                <Div class=" col-6 text-white bg-dark">
+                    <h2>Please Withdraw here</h2>
+                    <input type="text" placeholder="ammoubt you want to withdraw">
+                    <button>Submit</button>
+                </Div>
+            </section>
+
+        </section>
+    </main>
+    <script src="/banking.js"></script>
+</body>
+
+</html>
